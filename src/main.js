@@ -92,5 +92,4 @@ app.use(ElButton)
       // We recommend adjusting this value in production
       tracesSampleRate: 1.0,
     });
-
 app.mount('#app')

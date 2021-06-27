@@ -21,12 +21,13 @@
               <span>Dashboard</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/introduce"><i class="el-icon-data-line" />系统介绍</el-menu-item>
-              <el-menu-item index="/dashboard"><i class="el-icon-odometer" />Dashboard</el-menu-item>
-              <el-menu-item index="/add"><i class="el-icon-plus" />添加商品</el-menu-item>
+              <!-- <el-menu-item index="/introduce"><i class="el-icon-data-line" />系统介绍</el-menu-item>
+              <el-menu-item index="/dashboard"><i class="el-icon-odometer" />Dashboard</el-menu-item> -->
+              <el-menu-item index="/rdemo"><i class="el-icon-odometer" />RDemo</el-menu-item>
+              <!-- <el-menu-item index="/add"><i class="el-icon-plus" />添加商品</el-menu-item> -->
             </el-menu-item-group>
           </el-submenu>
-          <el-submenu index="2">
+          <!-- <el-submenu index="2">
             <template #title>
               <span>首页配置</span>
             </template>
@@ -55,7 +56,7 @@
             <el-menu-item-group>
               <el-menu-item index="/account"><i class="el-icon-lock" />修改密码</el-menu-item>
             </el-menu-item-group>
-          </el-submenu>
+          </el-submenu> -->
         </el-menu>
       </el-aside>
       <el-container class="content">

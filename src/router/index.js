@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHashHistory(), // hash模式：createWebHashHistory，history模式：createWebHistory
-  routes: [
+  routes: [    
     {
       path: '/',
       redirect: '/introduce'
@@ -16,6 +16,11 @@ const router = createRouter({
       path: '/dashboard',
       name: 'dashboard',
       component: () => import(/* webpackChunkName: "dashboard" */ '../views/Index.vue')
+    },
+    {
+      path: '/rdemo',
+      name: 'rdemo',
+      component: () => import(/* webpackChunkName: "dashboard" */ '../views/RDemo.vue')
     },
     {
       path: '/login',
