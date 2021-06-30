@@ -7,7 +7,7 @@ import config from '~/config'
 
 // 这边由于后端没有区分测试和正式，姑且都写成一个接口。
 //axios.defaults.baseURL = config[import.meta.env.MODE].baseUrl
-axios.defaults.baseURL = "http://localhost:8080"
+axios.defaults.baseURL = "http://81.68.116.150:8080/JavaAndR"
 // 携带 cookie，对目前的项目没有什么作用，因为我们是 token 鉴权
 axios.defaults.withCredentials = true
 // 请求头，headers 信息
